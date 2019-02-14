@@ -1,4 +1,4 @@
-const Discord = require("discord.js");
+﻿const Discord = require("discord.js");
 const Enmap = require("enmap");
 const fs = require("fs");
 
@@ -10,7 +10,7 @@ client.kitsu = require("node-kitsu");
 const moment = require("moment");
 const DBL = require("dblapi.js");
 const dbl = new DBL(process.env.DBL_TOKEN, client);
-const prefix = "x!";
+const prefix = "-";
 
 const getYoutubeID = require('get-youtube-id');
 
